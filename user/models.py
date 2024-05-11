@@ -9,6 +9,7 @@ class users(models.Model):
 
 
 
+
 class SocialMediaTokens(models.Model):
     UID= models.ForeignKey(users, on_delete= models.CASCADE)
     platform_name= models.CharField(max_length= 50)
